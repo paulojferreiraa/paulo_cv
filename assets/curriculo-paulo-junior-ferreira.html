@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo | Paulo Junior Ferreira</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+    body { width: 210mm; min-height: 297mm; margin: 0; color: #1d2935; background: #fff; font: 9pt/1.4 Arial, sans-serif; }
+    a { color: inherit; text-decoration: none; }
+    .page { min-height: 297mm; display: grid; grid-template-rows: 48mm 1fr; }
+    .header { display: flex; align-items: center; gap: 8mm; padding: 8mm 12mm; color: #fff; background: #17384a; }
+    .portrait { width: 27mm; height: 32mm; flex: 0 0 auto; border: 1.5px solid #d7e5e5; object-fit: cover; object-position: center 35%; }
+    .name { margin: 0 0 2mm; font-size: 24pt; line-height: 1.05; font-weight: 700; }
+    .role { margin: 0; color: #d8e7e7; font-size: 10pt; }
+    .header-rule { width: 15mm; height: 1mm; margin-top: 4mm; background: #66c4b2; }
+    .content { display: grid; grid-template-columns: 63mm 1fr; gap: 9mm; padding: 9mm 12mm 11mm; }
+    aside { padding-right: 7mm; border-right: 1px solid #d9e1e5; }
+    section { margin: 0 0 7mm; }
+    h2 { margin: 0 0 3mm; color: #176353; font-size: 9pt; line-height: 1.2; letter-spacing: .7px; text-transform: uppercase; }
+    h3 { margin: 0; color: #1d2935; font-size: 10pt; line-height: 1.25; }
+    p { margin: 0 0 2mm; }
+    ul { margin: 0; padding-left: 4mm; }
+    li { margin: 0 0 1.2mm; }
+    .contact-list, .plain-list { margin: 0; padding: 0; list-style: none; }
+    .contact-list li { margin-bottom: 2.2mm; overflow-wrap: anywhere; }
+    .contact-label { display: block; color: #62717d; font-size: 7.5pt; }
+    .education-item { margin-bottom: 3.5mm; }
+    .education-item p { margin-top: 1mm; color: #52616c; }
+    .skill-group { margin-bottom: 3mm; }
+    .skill-group h3 { margin-bottom: 1mm; font-size: 8.5pt; }
+    .skill-group p { color: #52616c; font-size: 8pt; }
+    .summary { margin-bottom: 7mm; }
+    .experience-head { display: flex; justify-content: space-between; gap: 4mm; align-items: baseline; }
+    .period { color: #52616c; font-size: 8pt; white-space: nowrap; }
+    .company { margin: 1mm 0 3mm; color: #52616c; }
+    .experience-list li { margin-bottom: 2mm; }
+    @media screen {
+      body { margin: 12mm auto; box-shadow: 0 4mm 18mm #162c3a24; }
+    }
+    @media print {
+      html, body { width: 210mm; height: 297mm; }
+      .page { height: 297mm; min-height: 0; }
+    }
+  </style>
+</head>
+<body>
+  <article class="page">
+    <header class="header">
+      <img class="portrait" src="images/foto-paulo.jpg" alt="Foto de Paulo Junior Ferreira">
+      <div>
+        <h1 class="name">Paulo Junior Ferreira</h1>
+        <p class="role">Técnico de TI | Suporte e Sustentação de Sistemas | Análise de Sistemas</p>
+        <div class="header-rule" aria-hidden="true"></div>
+      </div>
+    </header>
+
+    <div class="content">
+      <aside>
+        <section>
+          <h2>Contato</h2>
+          <ul class="contact-list">
+            <li><span class="contact-label">E-mail</span><a href="mailto:paulojferrreira1999@outlook.com">paulojferrreira1999@outlook.com</a></li>
+            <li><span class="contact-label">WhatsApp</span><a href="https://wa.me/5541995885907">(41) 99588-5907</a></li>
+            <li><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/paulo-junior-ferreira-b29650188/">linkedin.com/in/paulo-junior-ferreira-b29650188</a></li>
+            <li><span class="contact-label">GitHub</span><a href="https://github.com/paulojferreiraa">github.com/paulojferreiraa</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Formação</h2>
+          <div class="education-item">
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p>Graduação</p>
+          </div>
+          <div class="education-item">
+            <h3>Gestão da Tecnologia da Informação</h3>
+            <p>Pós-graduação</p>
+          </div>
+          <div class="education-item">
+            <h3>Segurança e Defesa Cibernética</h3>
+            <p>Pós-graduação</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Competências</h2>
+          <div class="skill-group">
+            <h3>Suporte e infraestrutura</h3>
+            <p>Suporte presencial e remoto, Windows, redes, sistemas corporativos, configuração e manutenção de equipamentos, diagnóstico de incidentes.</p>
+          </div>
+          <div class="skill-group">
+            <h3>Sistemas e processos</h3>
+            <p>Análise de incidentes, documentação técnica, acompanhamento de solicitações e validação de soluções.</p>
+          </div>
+          <div class="skill-group">
+            <h3>Desenvolvimento</h3>
+            <p>HTML, CSS, JavaScript, Java (em aprendizado), Spring Boot e APIs REST (em estudo), Git e GitHub.</p>
+          </div>
+        </section>
+      </aside>
+
+      <main>
+        <section class="summary">
+          <h2>Resumo profissional</h2>
+          <p>Profissional de Tecnologia da Informação com experiência em suporte técnico, atendimento a usuários e sustentação de sistemas corporativos. Formado em Análise e Desenvolvimento de Sistemas, com pós-graduações em Gestão de TI e Segurança e Defesa Cibernética. Atua no diagnóstico de incidentes, acompanhamento de soluções e documentação técnica, com objetivo de evoluir para análise e sustentação de sistemas.</p>
+        </section>
+
+        <section>
+          <h2>Experiência profissional</h2>
+          <div class="experience-head">
+            <h3>Técnico de TI</h3>
+            <span class="period">Ago. 2022 – atual</span>
+          </div>
+          <p class="company">Instituto das Cidades Inteligentes (ICI)</p>
+          <ul class="experience-list">
+            <li>Atendimento técnico presencial e remoto a usuários de sistemas corporativos.</li>
+            <li>Diagnóstico e resolução de problemas de software, hardware e conectividade.</li>
+            <li>Suporte a aplicações e análise de erros de acesso.</li>
+            <li>Instalação, configuração e manutenção de equipamentos, softwares, impressoras e recursos de rede.</li>
+            <li>Manutenção preventiva de equipamentos e máquinas virtuais.</li>
+            <li>Registro e acompanhamento de chamados, documentação técnica e orientação aos usuários.</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </article>
+</body>
+</html>
