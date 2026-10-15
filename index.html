@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paulo Junior Ferreira | Tecnologia da Informação e Sistemas</title>
+  <meta name="description" content="Currículo profissional e portfólio de Paulo Junior Ferreira, profissional de TI com experiência em suporte técnico, sistemas corporativos, análise de incidentes e desenvolvimento de projetos.">
+  <meta name="author" content="Paulo Junior Ferreira">
+  <meta name="theme-color" content="#0b1b33">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Paulo Junior Ferreira | Tecnologia da Informação e Sistemas">
+  <meta property="og:description" content="Técnico de TI | Suporte e Sustentação de Sistemas | Análise de Sistemas.">
+  <meta property="og:image" content="assets/images/foto-paulo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header" id="topo">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a href="#inicio" class="logo" aria-label="Paulo Junior Ferreira — início">PJF<span>.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#competencias">Competências</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a class="btn btn-small" href="assets/curriculo-paulo-junior-ferreira.pdf" download>Baixar currículo</a></li>
+        <li><button class="theme-toggle" id="themeToggle" aria-label="Alternar tema claro/escuro">◐</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- INÍCIO -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Olá, eu sou</p>
+          <h1>Paulo Junior Ferreira</h1>
+          <p class="role">Técnico de TI | Suporte e Sustentação de Sistemas | Análise de Sistemas</p>
+          <p class="lead">Profissional de Tecnologia da Informação com experiência em suporte técnico, sistemas corporativos, resolução de incidentes e atendimento a usuários. Formado em Análise e Desenvolvimento de Sistemas, com pós-graduações em Gestão de TI e Segurança e Defesa Cibernética. Em constante evolução profissional, buscando oportunidades em análise e sustentação de sistemas.</p>
+         
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="assets/images/foto-paulo.jpg" alt="Retrato de Paulo Junior Ferreira, de terno cinza-claro e gravata, em área externa arborizada" width="480" height="480" fetchpriority="high"
+                 onerror="this.style.display='none';this.parentElement.classList.add('no-photo')">
+            <span class="photo-fallback" aria-hidden="true">PJF</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-photo reveal">
+          <img src="assets/images/foto-paulo.jpg" alt="Paulo Junior Ferreira" width="360" height="360" loading="lazy"
+               onerror="this.closest('.about-photo').style.display='none'">
+        </div>
+        <div class="reveal">
+          <h2 class="section-title">Sobre mim</h2>
+          <p>Sou profissional de Tecnologia da Informação e atuo com suporte técnico, atendimento a usuários e sistemas corporativos. No dia a dia, diagnostico problemas de software, hardware e conectividade, registro ocorrências e acompanho as soluções até a validação com o usuário.</p>
+          <p>Minha formação em Análise e Desenvolvimento de Sistemas, somada às pós-graduações em Gestão de TI e em Segurança e Defesa Cibernética, sustenta o meu objetivo de evoluir do suporte técnico para a análise e a sustentação de sistemas. Gosto de entender a causa dos problemas, documentar o que foi feito e manter-me em constante aprendizado.</p>
+          <h3 class="subtitle">Áreas de interesse</h3>
+          <ul class="chips">
+            <li>Análise de Sistemas</li>
+            <li>Suporte e Sustentação de Sistemas</li>
+            <li>Análise e resolução de incidentes</li>
+            <li>Qualidade e testes de software</li>
+            <li>Desenvolvimento de aplicações</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section class="section alt" id="experiencia">
+      <div class="container">
+        <h2 class="section-title reveal">Experiência profissional</h2>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section class="section" id="formacao">
+      <div class="container">
+        <h2 class="section-title reveal">Formação acadêmica</h2>
+        <div class="cards" id="formacaoCards"></div>
+      </div>
+    </section>
+
+    <!-- COMPETÊNCIAS -->
+    <section class="section alt" id="competencias">
+      <div class="container">
+        <h2 class="section-title reveal">Competências técnicas</h2>
+        <div class="cards" id="skillsCards"></div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+      <div class="container contact reveal">
+        <h2 class="section-title">Contato</h2>
+        <p>Vamos conversar sobre oportunidades em análise e sustentação de sistemas.</p>
+        <p class="small">E-mail: paulojferrreira1999@outlook.com</p>
+        <div class="btn-row center">
+          <a class="btn" href="https://www.linkedin.com/in/paulo-junior-ferreira-b29650188/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn btn-outline" href="https://github.com/paulojferreiraa" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn btn-outline" href="https://wa.me/5541995885907" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+         
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Paulo Junior Ferreira</strong><br>
+        Técnico de TI | Análise e Suporte de Sistemas
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/paulo-junior-ferreira-b29650188/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/paulojferreiraa" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <div class="small">© <span id="year"></span> Paulo Junior Ferreira. Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
